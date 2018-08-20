@@ -1,0 +1,39 @@
+"""Question 1"""
+print("Nikhil Thakur")
+
+
+"""Question 2"""
+s="Nikhil's"
+s1="World"
+print(s+" "+s1)
+
+
+"""Question 3"""
+a=input("First Name:- ")
+b=input("Last Name:- ")
+c=int(input("Enter Age:- "))
+print("Name:- ",a+" "+b)
+print("Age:- {}".format(c))
+
+
+"""Question 4"""
+print('''"Let's Get Started"''')
+
+
+"""Question 5"""
+s="Acadview" 
+course="Python" 
+fees=5000 
+
+print("""S:-%s
+Fees:- %d
+Course : %s
+"""%(s,fees,course))
+
+
+
+"""Question 6"""
+pi=3.14
+r=float(input("Enter Radius of circle"))
+area=pi*(r**2)
+print("Area of circle:- {}".format(area))
